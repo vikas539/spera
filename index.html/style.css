@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #d48181;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: rgba(83, 197, 83, 0.671);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin-left: 45%;
+  height: 60px;
+  font-size:larger;
+}
+
+
+.container {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: rgb(235, 228, 215);
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.message {
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin: 10px 0;
+  max-width: 60%;
+  word-wrap: break-word;
+  height: auto;
+}
+
+.message.right {
+  background-color: #3985d6;
+  color: white;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.message.left {
+  background-color: #e0e0e0;
+  color: black;
+  align-self: flex-start;
+  text-align: left;
+}
+
+
+.send {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-top: 1px solid #ccc;
+}
+
+#send-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#messageInp {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+#receiverName {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.centered {
+  text-align: center;
+  font-weight: bold; 
+  margin: 10px 0; 
+}
+.spera{
+font-weight: 800;
+color: white;
+margin-left: 10px;
+   
+}
